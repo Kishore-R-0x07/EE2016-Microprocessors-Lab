@@ -21,10 +21,10 @@ MOV R0, R3
 ;COUNT REGISTER = R16
 MOV R16, R2
 outerloop : DEC R16
-			      BRNE multiply
-			      RJMP end
+	    BRNE multiply
+            RJMP end
 multiply : ADD R0, R3
-		       BRCC outerloop
-		       ADC R1, R20     ;R20 is used to simply store a zero value
+           BRCC outerloop
+	   ADC R1, R20     ;R20 is used to simply store a zero value
 end : NOP
 NUM: .db 0x02, 0x05
