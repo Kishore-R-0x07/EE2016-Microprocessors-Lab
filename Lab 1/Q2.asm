@@ -2,7 +2,7 @@
 ; Lab1Q2.asm
 ;
 ; Created: 01-09-2021 16:02:57
-; Author : Kishore R (EE20B064)
+; Author : Kishore R
 ; EE2016F21 Lab 1
 
 
