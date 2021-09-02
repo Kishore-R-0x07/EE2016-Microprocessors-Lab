@@ -2,7 +2,7 @@
 ; Lab1Q4.asm
 ;
 ; Created: 01-09-2021 16:23:23
-; Author : Kishore R (EE20B064)
+; Author : Kishore R
 ; EE2016F21 Lab 1
 
 
@@ -16,12 +16,12 @@ LDI XL, 0x60
 LDI XH, 0x00
 LPM R21, Z+
 outerloop : DEC R23
-			BRNE loop
-			RJMP end
+	    BRNE loop
+	    RJMP end
 loop: LPM R22, Z+
-	  CP R21, R22
-	  BRLT assign
-	  RJMP outerloop
+      CP R21, R22
+      BRLT assign
+      RJMP outerloop
 assign : MOV R21, R22
          RJMP outerloop
 end : NOP
