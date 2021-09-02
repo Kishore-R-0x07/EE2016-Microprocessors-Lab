@@ -23,7 +23,7 @@ loop: LPM R22, Z+
 	  BRLT assign
 	  RJMP outerloop
 assign : MOV R21, R22
-		 RJMP outerloop
+         RJMP outerloop
 end : NOP
 ST X, R21
 ARR: .db 0x3D,0x54,0XD3,0x54,0x01,0x02
