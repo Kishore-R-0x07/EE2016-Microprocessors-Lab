@@ -12,6 +12,5 @@ Q4) Given an Array of numbers, Finding the Largest Number<br>
 Lab 2 (Microchip Studio : AVR Atmega8):<br>
 To demonstrate:
 1. External Interrupts triggered by INT0, INT1 pins using AVR Assembly Language<br>
-2. External Interrupts triggered by INT0, INT1 pins using C Programming Language<br>
-By blinking an LED connected to pin PB0 with a 1 second delay (approximate)<br>
-4. Use the 16 bit timer : Timer 1 to create an accurate 1 second delay for blinking the LED
+2. External Interrupts triggered by INT0, INT1 pins using C Programming Language<br><br>By blinking an LED connected to pin PB0 with a 1 second delay (approximate)<br>
+Bonus Q: Use the 16 bit timer : Timer 1 to create an accurate 1 second delay for blinking the LED
